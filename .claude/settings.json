@@ -2,7 +2,10 @@
   "permissions": {
     "allow": [
       "Bash(Get-ChildItem -Path \"g:\\\\Meu Drive\\\\TGO INFORMATICA\\\\PROJETOS\\\\Pessoal\\\\karen-project\\\\karen-project\" -Recurse -Force)",
-      "Bash(Select-Object -ExpandProperty FullName)"
+      "Bash(Select-Object -ExpandProperty FullName)",
+      "Bash(git pull *)",
+      "Bash(git commit *)",
+      "Read(//c/Users/tgool_etqn0g4/AppData/Local/Temp/claude/g--Meu-Drive-TGO-INFORMATICA-PROJETOS-Pessoal-karen-project-karen-project/f991d418-9ee2-457f-b279-98a8d0a161a0/tasks/**)"
     ]
   }
 }
